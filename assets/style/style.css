@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+form {
+    background-color: #73B9EE;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.form-title {
+    color: white;
+}
+
+.form-part {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    margin: 10px;
+    color: white;
+}
+
+.form-input {
+    border-radius: 5px;
+    border: 0;
+    height: 20px;
+}
+
+.form-message {
+    color: black;
+}
+
+.form-link-message {
+    color: white;
+    text-decoration: none;
+}
+
+.form-message-forgot-pass {
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.form-link-message-forgot-pass {
+    font-size: 12px;
+    color: white;
+    margin: 5px;
+}
+
+.form-button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    margin: 5px;
+}
+
+.navbar {
+    background-color: #73B9EE;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+img {
+    height: 100px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.navbar-option {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left:100px;
+    margin-right: 100px;
+    color:white;
+}
+
+.approved-message {
+    margin: 50px;
+}
+
+.calendar {
+    align-self: center;
+}
+
+.calendar-item {
+    margin: 0px;
+    padding: 5px;
+}
+
+.article {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin: 25px;
+}
+
+table {
+    align-self: center;
+    margin: 10px;
+}
+
+th {
+    width: 300px;
+}
+

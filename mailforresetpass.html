@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Gift U | Send Email to Reset Password</title>
+
+    <link rel="stylesheet" href="assets/style/style.css">
+
+</head>
+<body>
+
+    <div class='navbar'>
+
+        <img src='assets/images/logo.png' alt='logo'>
+    
+        </div>
+
+    <div class="form-container">
+
+        <form method="POST" action="api/endpoints/mailforreset.php">
+
+            <div class="form-part">
+                <h2 class="form-title">Send an Email to Reset Password</h2>
+            </div>
+
+            <div class="form-part">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" type="email" name="email" id="email">
+            </div>
+
+            <div class="form-part">
+                <label class="form-label" for="cemail">Confirm Email</label>
+                <input class="form-input" type="email" name="cemail" id="cemail">
+            </div>
+
+            <div class="form-part">
+                <input class="form-button" type="submit" value="Send">
+            </div>
+
+            <div class="form-part">
+                <a class="form-link-message" href="index.html">Go Back!</a>
+            </div>
+    
+        </form>
+
+    </div>
+
+    
+    
+</body>
+</html>
